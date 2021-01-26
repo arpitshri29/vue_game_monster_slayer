@@ -1,15 +1,18 @@
 <template>
   <h1>Welcome to Monster Slayer!</h1>
+  <BattleField />
 </template>
 
 <script>
+import BattleField from "./components/BattleField";
+import './styles.css'
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-
-  }
-}
+    BattleField,
+  },
+};
 </script>
 
 <style>
