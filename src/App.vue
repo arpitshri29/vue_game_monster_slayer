@@ -1,5 +1,5 @@
 <template>
-  <h1>Welcome to Monster Slayer!</h1>
+  <header><h1>Welcome to Monster Slayer!</h1></header>
   <BattleField />
 </template>
 
